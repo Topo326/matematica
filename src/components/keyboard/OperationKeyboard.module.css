@@ -1,0 +1,27 @@
+.keyboard {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+}
+
+.key {
+  padding: 0.75rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #3b82f6;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.key:hover {
+  background: white;
+  color: #333;
+  border-color: #2563eb;
+}

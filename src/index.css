@@ -1,0 +1,67 @@
+@import "tailwindcss";
+body {
+  background-color: grey;
+  color: white;
+}
+/* index.css (Nuevas reglas) */
+input:invalid {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 1px #ef4444;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input {
+  border: 1px solid rgb(216, 216, 216);
+  margin: 0 10px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(22, 141, 6);
+  color: aliceblue;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.buttonAñadirConjunto {
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+  margin: 13px auto 0;
+  text-decoration: underline;
+}
+
+select {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: default;
+}
