@@ -1,8 +1,6 @@
 @import "tailwindcss";
-body {
-  background-color: grey;
-  color: white;
-}
+
+
 /* index.css (Nuevas reglas) */
 input:invalid {
   border-color: #ef4444;
