@@ -5,6 +5,8 @@ const OperationInput = ({ operation, setOperation }) => {
     setOperation((prev) => prev + symbol);
   };
 
+  console.log(",")
+
   return (
     <div className="space-y-4">
       <div className="bg-white p-4 rounded-lg shadow-sm">
